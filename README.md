@@ -50,6 +50,38 @@ No link a seguir você encontra o guia no Notion referente aos desafios proposto
 
 - [Desafio Happy 2.0](https://www.notion.so/Vers-o-2-0-do-Happy-c754db7a4d41469e8c2d00fcf75392c4) -->
 
+## :fire: Como usar
+
+1. Faça um clone :
+
+```sh
+  $ https://github.com/LarahBrandao/Happy.git
+```
+
+2. Executando a Aplicação:
+
+```sh
+  # Instale as dependências
+  $ npm install
+  
+  ## Crie o banco de dados
+  $ cd server
+  $ yarn typeorm migration:run
+
+  # Inicie a API
+  $ npm run dev
+  # ou
+  $ yarn dev
+
+  # Inicie a aplicação web
+  $ cd web
+  $ npm start
+
+  # Inicie a aplicação mobile
+  $ cd mobile
+  $ npm start
+```
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
